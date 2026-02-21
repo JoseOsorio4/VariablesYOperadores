@@ -5,35 +5,7 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        //  6  Login de usuario
-        sc.nextLine(); 
-
-        System.out.println("\nLOGIN DE USUARIO");
-
-        String usuarioCorrecto = "Jose";
-        String claveCorrecta = "Osorio";
-
-        System.out.print("Usuario: ");
-        String usuario = sc.nextLine();
-
-        System.out.print("Contraseña: ");
-        String clave = sc.nextLine();
-
-        if (usuario.equals(usuarioCorrecto)) {
-
-            if (clave.equals(claveCorrecta)) {
-                System.out.println("Acceso concedido");
-            } else {
-                System.out.println("Contraseña incorrecta");
-            }
-
-        } else {
-            System.out.println("Usuario no registrado");
-        }
-
-        sc.close();
-    }
+      }
 
         //  1 Variables 
         System.out.println("DATOS USUARIO DE ESTUDIANTE");
